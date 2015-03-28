@@ -8,8 +8,10 @@
                 <StackPanel DockPanel.Dock="Left">
                     
                 </StackPanel>
-                <Grid DockPanel.Dock="Right">
+                <Grid DockPanel.Dock="Right" Margin="30">
                     <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
                         <RowDefinition/>
@@ -22,6 +24,40 @@
                         <ColumnDefinition/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0">Type</TextBlock>
+                    <TextBlock Grid.Row="1" Grid.Column="0">Other</TextBlock>
+                    <TextBlock Grid.Row="2" Grid.Column="0">Cover</TextBlock>
+                    <TextBlock Grid.Row="3" Grid.Column="0">Shield</TextBlock>
+                    <TextBlock Grid.Row="4" Grid.Column="0">Armor</TextBlock>
+                    <TextBlock Grid.Row="5" Grid.Column="0">Skin</TextBlock>
+                    <TextBlock Grid.Row="0" Grid.Column="1">AC</TextBlock>
+                    <TextBlock Grid.Row="0" Grid.Column="2">AV</TextBlock>
+                    <TextBlock Grid.Row="0" Grid.Column="3">DT</TextBlock>
+                    <TextBlock Grid.Row="0" Grid.Column="4">Condition</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="1"/>
+                    <TextBox Grid.Row="2" Grid.Column="1"/>
+                    <TextBox Grid.Row="3" Grid.Column="1"/>
+                    <TextBox Grid.Row="4" Grid.Column="1"/>
+                    <TextBox Grid.Row="5" Grid.Column="1"/>
+                    <TextBox Grid.Row="6" Grid.Column="1"/>
+                    <TextBox Grid.Row="1" Grid.Column="2"/>
+                    <TextBox Grid.Row="2" Grid.Column="2"/>
+                    <TextBox Grid.Row="3" Grid.Column="2"/>
+                    <TextBox Grid.Row="4" Grid.Column="2"/>
+                    <TextBox Grid.Row="5" Grid.Column="2"/>
+                    <TextBox Grid.Row="6" Grid.Column="2"/>
+                    <TextBox Grid.Row="1" Grid.Column="3"/>
+                    <TextBox Grid.Row="2" Grid.Column="3"/>
+                    <TextBox Grid.Row="3" Grid.Column="3"/>
+                    <TextBox Grid.Row="4" Grid.Column="3"/>
+                    <TextBox Grid.Row="5" Grid.Column="3"/>
+                    <TextBox Grid.Row="6" Grid.Column="3"/>
+                    <TextBox Grid.Row="1" Grid.Column="4"/>
+                    <TextBox Grid.Row="2" Grid.Column="4"/>
+                    <TextBox Grid.Row="3" Grid.Column="4"/>
+                    <TextBox Grid.Row="4" Grid.Column="4"/>
+                    <TextBox Grid.Row="5" Grid.Column="4"/>
+                    <TextBox Grid.Row="6" Grid.Column="4"/>
                 </Grid>
             </DockPanel>
         </TabItem>
